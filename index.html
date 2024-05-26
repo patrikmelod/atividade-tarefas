@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Lista de Tarefas</title>
+</head>
+
+<body>
+    <div class="header">
+        <h2>TAREFAS</h2>
+        <input type="text" id="tarefa" placeholder="Informe a tarefa">
+        <span onclick="addElemento()" class="addBtn">Incluir</span>
+    </div>
+    <div class="botoes">
+        <button id="limpar" onclick="limparLista()">Limpar lista</button>
+    </div>
+    <div class="label">
+        <h3>Prazo</h3>
+        <h3>Descrição</h3>
+    </div>
+    <ul id="itemLista">
+    </ul>
+    <script src="script.js"></script>
+</body>
+
+</html>

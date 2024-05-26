@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    min-width: 250px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-family: 'Roboto', sans-serif;
+    color: #555;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    padding: 15px 8px 15px 40px;
+    background: #eee;
+    font-size: 18px;
+    height: 70px;
+}
+
+ul li:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+ul li:hover {
+    background: #ddd;
+}
+
+ul li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+}
+
+button {
+    background-color: #d9d9d9;
+    border: none;
+    color: #555;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    width: 300px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+button:hover {
+    background-color: #bbb;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 20px 16px 20px 16px;
+    height: 100%;
+}
+
+.close:hover {
+    background-color: #bcccb8;
+    color: white;
+}
+
+.header {
+    background-color: #bcccb8;
+    padding: 30px 40px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+}
+
+.prazo {
+    position:relative;
+    text-align: center;
+    align-self:self-end;
+    width: 125px;
+    padding-left: 20px;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.addBtn {
+    padding: 10px;
+    width: 25%;
+    background: #d9d9d9;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.label {
+    display: flex;
+    flex-direction: row;
+    padding-left: 42px;
+    gap: 92px;
+}
+
+.addBtn:hover {
+    background-color: #bbb;
+}
